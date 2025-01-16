@@ -9,6 +9,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
 
 @Entity
@@ -77,5 +78,13 @@ public class ProductModel implements Serializable{
 
     public void setDataCriacao(LocalDateTime dataCriacao) {
         this.dataCriacao = dataCriacao;
+    }
+    // Método que será chamado antes de persistir a entidade no banco de dados
+    @PrePersist
+    public void prePersist() {
+        // Define a data de criação automaticamente
+        if (dataCriacao == null) {
+            this.dataCriacao = LocalDateTime.now();
+        }
     }
 }
