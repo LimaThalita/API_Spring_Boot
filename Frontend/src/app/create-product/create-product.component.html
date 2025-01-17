@@ -1,0 +1,24 @@
+<div>
+  <h2>Cadastrar Máquina Virtual</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div>
+      <label>Nome</label>
+      <input type="text" [(ngModel)]="product.name" name="name" required>
+    </div>
+    <div>
+      <label>CPU</label>
+      <input type="number" [(ngModel)]="product.cpu" name="cpu" required>
+    </div>
+    <div>
+      <label>Memória (GB)</label>
+      <input type="number" [(ngModel)]="product.memory" name="memory" required>
+    </div>
+    <div>
+      <label>Disco (GB)</label>
+      <input type="number" [(ngModel)]="product.disk" name="disk" required>
+    </div>
+    <button type="submit">Cadastrar</button>
+  </form>
+</div>
+
+
