@@ -19,15 +19,15 @@ Este projeto é uma **API de gerenciamento de máquinas virtuais** com backend e
 ## Pré-requisitos
 
 
-- [Java Development Kit (JDK) 17 ou superior](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) - Versão do Java utilizada para esse projeto.
-- [Maven](https://maven.apache.org/download.cgi) - Para gerenciamento de dependências do Spring Boot
-- [PostgreSQL](https://www.postgresql.org/download/) - Para o gerenciamento do banco de dados.
-- [Node.js](https://nodejs.org/ - Para utilização do npm. 
-- Angular CLI - É instalado através do gerenciador npm)
-- [VsCode](https://code.visualstudio.com)-Visual Studio Code (IDE opcional, pode-se Eclipse ou IntelliJ IDEA )
+- [Java Development Kit (JDK) 17 ou superior](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) - Versão do Java utilizada para esse projeto;
+- [Maven](https://maven.apache.org/download.cgi) - Para gerenciamento de dependências do Spring Boot;
+- [PostgreSQL](https://www.postgresql.org/download/) - Para o gerenciamento do banco de dados;
+- [Node.js](https://nodejs.org/) - Para utilização do npm;
+- Angular CLI - É instalado através do gerenciador npm;
+- [VsCode](https://code.visualstudio.com)-Visual Studio Code (IDE opcional, pode-se Eclipse ou IntelliJ IDEA).
 
 
-- Um gerenciador de pacotes como **npm** ou **yarn**
+- Um gerenciador de pacotes como **npm** ou **yarn** 
 
 
 ### 1. Clone o repositório
