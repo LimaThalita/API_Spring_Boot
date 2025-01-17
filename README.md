@@ -1,4 +1,4 @@
-# Desafio Técnico: Sistema de Cadastro de Máquinas Virtuais
+# Técnico: Sistema de Cadastro de Máquinas Virtuais
 
 ## Descrição do Projeto
 
