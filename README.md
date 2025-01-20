@@ -1,4 +1,4 @@
-# Técnico: Sistema de Cadastro de Máquinas Virtuais
+# Sistema de Cadastro de Máquinas Virtuais
 
 ## Descrição do Projeto
 
